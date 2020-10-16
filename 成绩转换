@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+ int main()
+ { int a,b,c;
+  char xs;
+ while(scanf("%d",&a)!=EOF){
+     if(a<0||a>100) printf("Score is error!\n");
+     else {
+         switch (a/10){
+             case 10:
+                 case 9:xs='A'; break;
+             case 8:xs='B'; break;
+             case 7:xs='C'; break;
+             case 6:xs='D';break;
+             default:xs='E'; break;
+         }
+          printf("%c\n",xs);}
+     }
+return 0;
+ } 
