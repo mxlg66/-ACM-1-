@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+ int main()
+ { int a,b,c,n;
+ while(scanf("%d",&n)!=EOF){
+     a=1;
+     while(n--){
+         scanf("%d",&b);
+         if(b&1)
+         a*=b;
+     }
+     printf("%d\n",a);
+ }
+ return 0;
+ } 
